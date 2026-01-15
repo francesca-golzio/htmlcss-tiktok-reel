@@ -57,25 +57,29 @@
 
 }
 
-/* Post info */
+/* #region post-info */
 
 .post-info-container {
   position: relative;
 }
 
   .post-info {
-      position: absolute;
-      bottom: 0;
-      padding: 0px 86px 20px 15px;
-    }
+    position: absolute;
+    bottom: 0;
+    padding: 0px 86px 20px 15px;
+  }
 
-      .post-author {
-        font-weight: 600;
-        padding-bottom: 0.8rem;
-      }
+  .post-author {
+    font-weight: 600;
+    padding-bottom: 0.8rem;
+  }
 
-      .see-more {
-        font-weight: 600;
-      }
+  .see-more {
+    font-weight: 600;
+  }
+
+/* #endregion post-info */
+
+
 
 /* #endregion footer👢 */
