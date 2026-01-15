@@ -2,6 +2,24 @@
 
 /* #region header😄 */
 
+.reel-header {
+  display: flex;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#tab-labels {
+  display: flex;
+  gap: 15px;
+  /* flex-shrink: 4; */
+  color: #ffffff70;
+  font-size: 1rem;
+
+  .tab-opened {
+    color: #fff;
+  }
+
+}
 
 
 /* #endregion header😄 */
@@ -17,16 +35,3 @@
 
 
 /* #endregion footer👢 */
-
-
-
-
-
-
-
-
-
-
-
-
-
