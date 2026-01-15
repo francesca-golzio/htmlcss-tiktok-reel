@@ -14,13 +14,12 @@
   /* flex-shrink: 4; */
   color: #ffffff70;
   font-size: 1rem;
-
-  .tab-opened {
-    color: #fff;
-  }
-
+  
 }
 
+  #tab-labels > .tab-opened {
+    color: #fff;
+  }
 
 /* #endregion header😄 */
 
@@ -34,18 +33,19 @@
 
   .sidebar-item {
     padding-bottom: 20px;
-    & > i {
-      font-size: 1.8rem;
-    }
+  }
 
-  .profile-pic {
+  .sidebar-item  > i {
+    font-size: 1.8rem;
+  }
+  
+  .sidebar-item > .profile-pic {
     height: 50px;
     aspect-ratio: 1;
     border-radius: 50%;
     border: 2.5px solid  white;
+  }
 
-  }
-  }
 
 
 /* #endregion sidebar➡️ */
