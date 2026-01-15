@@ -26,6 +26,26 @@
 
 /* #region sidebar➡️ */
 
+.sidebar {
+  color: white;
+  text-align: center;
+
+}
+
+  .sidebar-item {
+    padding-bottom: 20px;
+    & > i {
+      font-size: 1.8rem;
+    }
+
+  .profile-pic {
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2.5px solid  white;
+
+  }
+  }
 
 
 /* #endregion sidebar➡️ */
