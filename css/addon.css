@@ -4,6 +4,7 @@
 
 .reel-header {
   display: flex;
+  justify-content: space-around;
   color: #fff;
   font-size: 1.5rem;
 }
