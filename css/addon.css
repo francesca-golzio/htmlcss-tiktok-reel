@@ -53,6 +53,29 @@
 
 /* #region footer👢 */
 
+.reel-footer {
 
+}
+
+/* Post info */
+
+.post-info-container {
+  position: relative;
+}
+
+  .post-info {
+      position: absolute;
+      bottom: 0;
+      padding: 0px 86px 20px 15px;
+    }
+
+      .post-author {
+        font-weight: 600;
+        padding-bottom: 0.8rem;
+      }
+
+      .see-more {
+        font-weight: 600;
+      }
 
 /* #endregion footer👢 */
